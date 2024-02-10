@@ -1,0 +1,138 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "ObjectID",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWFjY291bnQtZ3JvdXAtb3V0bGluZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMiw1QTMuNSwzLjUgMCAwLDAgOC41LDguNUEzLjUsMy41IDAgMCwwIDEyLDEyQTMuNSwzLjUgMCAwLDAgMTUuNSw4LjVBMy41LDMuNSAwIDAsMCAxMiw1TTEyLDdBMS41LDEuNSAwIDAsMSAxMy41LDguNUExLjUsMS41IDAgMCwxIDEyLDEwQTEuNSwxLjUgMCAwLDEgMTAuNSw4LjVBMS41LDEuNSAwIDAsMSAxMiw3TTUuNSw4QTIuNSwyLjUgMCAwLDAgMywxMC41QzMsMTEuNDQgMy41MywxMi4yNSA0LjI5LDEyLjY4QzQuNjUsMTIuODggNS4wNiwxMyA1LjUsMTNDNS45NCwxMyA2LjM1LDEyLjg4IDYuNzEsMTIuNjhDNy4wOCwxMi40NyA3LjM5LDEyLjE3IDcuNjIsMTEuODFDNi44OSwxMC44NiA2LjUsOS43IDYuNSw4LjVDNi41LDguNDEgNi41LDguMzEgNi41LDguMjJDNi4yLDguMDggNS44Niw4IDUuNSw4TTE4LjUsOEMxOC4xNCw4IDE3LjgsOC4wOCAxNy41LDguMjJDMTcuNSw4LjMxIDE3LjUsOC40MSAxNy41LDguNUMxNy41LDkuNyAxNy4xMSwxMC44NiAxNi4zOCwxMS44MUMxNi41LDEyIDE2LjYzLDEyLjE1IDE2Ljc4LDEyLjNDMTYuOTQsMTIuNDUgMTcuMSwxMi41OCAxNy4yOSwxMi42OEMxNy42NSwxMi44OCAxOC4wNiwxMyAxOC41LDEzQzE4Ljk0LDEzIDE5LjM1LDEyLjg4IDE5LjcxLDEyLjY4QzIwLjQ3LDEyLjI1IDIxLDExLjQ0IDIxLDEwLjVBMi41LDIuNSAwIDAsMCAxOC41LDhNMTIsMTRDOS42NiwxNCA1LDE1LjE3IDUsMTcuNVYxOUgxOVYxNy41QzE5LDE1LjE3IDE0LjM0LDE0IDEyLDE0TTQuNzEsMTQuNTVDMi43OCwxNC43OCAwLDE1Ljc2IDAsMTcuNVYxOUgzVjE3LjA3QzMsMTYuMDYgMy42OSwxNS4yMiA0LjcxLDE0LjU1TTE5LjI5LDE0LjU1QzIwLjMxLDE1LjIyIDIxLDE2LjA2IDIxLDE3LjA3VjE5SDI0VjE3LjVDMjQsMTUuNzYgMjEuMjIsMTQuNzggMTkuMjksMTQuNTVNMTIsMTZDMTMuNTMsMTYgMTUuMjQsMTYuNSAxNi4yMywxN0g3Ljc3QzguNzYsMTYuNSAxMC40NywxNiAxMiwxNloiIC8+PC9zdmc+",
+  "name": "ObjectID",
+  "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/0fd8f424121605257ca18836cbb7539e9fa096711c768e7257cf696546847728_account-group-outline.svg",
+  "shortDescription": "Attach an ID to an Object",
+  "version": "0.0.1",
+  "description": "Use the Behavior, and in the Events you can change any Number with the Expression.",
+  "tags": [],
+  "authorIds": [
+    "R0mqNVbHq2d3TkT1tpC30KDawxB3"
+  ],
+  "dependencies": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Attach an ID to an Object. It can be useful for alot of things, such as Idenifying Objects, for saves, etc.",
+      "fullName": "ObjectID",
+      "name": "ObjectID",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "description": "Attach an ID to an Object.",
+          "fullName": "Attach ID",
+          "functionType": "Expression",
+          "name": "AttachID",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Variable(ReturnID)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ObjectID::ObjectID",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Object",
+                    "SceneCountID",
+                    "=",
+                    "SceneInstancesCount(Object)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Object",
+                    "ReturnID",
+                    "=",
+                    "Object.Variable(SceneCountID)+1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "ObjectID::ObjectID",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "Number",
+          "label": "You can change the Variable with Actions.",
+          "description": "",
+          "group": "",
+          "extraInformation": [],
+          "name": "ID_Variable"
+        }
+      ],
+      "sharedPropertyDescriptors": []
+    }
+  ],
+  "eventsBasedObjects": []
+}
